@@ -8,7 +8,7 @@ import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Kinde Auth",
+  title: "NBA Player Search APP",
   description: "Kinde with NextJS App Router",
 };
 
@@ -24,7 +24,7 @@ export default async function RootLayout({
       <body>
         <header>
           <nav className="nav container">
-            <h1 className="text-display-3">KindeAuth</h1>
+            <h1 className="text-display-3">NBA Player Search</h1>
             <div>
               {!(await isAuthenticated()) ? (
                 <>
@@ -63,7 +63,7 @@ export default async function RootLayout({
         <main>{children}</main>
         <footer className="footer">
           <div className="container">
-            <strong className="text-heading-2">KindeAuth</strong>
+            <strong className="text-heading-2">NBA Player Search APP</strong>
             <p className="footer-tagline text-body-3">
               Visit our{" "}
               <Link className="link" href="https://kinde.com/docs">
