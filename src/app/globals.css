@@ -167,6 +167,12 @@ a.text-subtle:hover{
   justify-content: center;
   text-align: center;
 }
+form.search-input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+}
 
 .hero-title {
   margin-bottom: var(--g-spacing-x-large);
