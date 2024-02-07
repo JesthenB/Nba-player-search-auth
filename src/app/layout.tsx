@@ -70,7 +70,6 @@ export default async function RootLayout({
                 help center
               </Link>
             </p>
-
             <small className="text-subtle">
               © 2023 KindeAuth, Inc. All rights reserved
             </small>

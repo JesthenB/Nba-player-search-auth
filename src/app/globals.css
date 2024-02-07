@@ -47,13 +47,10 @@
 
 html,
 body {
+  background-image: url(https://wallpaperaccess.com/full/128139.jpg) ;
   padding: 0;
   margin: 0;
   font-family: var(--g-font-family);
-}
-
-body{
-  background-image: url(https://wallpaperaccess.com/full/128139.jpg) ;;
 }
 
 a {
@@ -98,16 +95,19 @@ a {
 .text-display-3 {
   font-size: var(--g-font-size-x-large);
   font-weight: var(--g-font-weight-black);
+  color: #f8f4f4;
 }
 
 .text-heading-1 {
   font-size: var(--g-font-size-large);
   font-weight: var(--g-font-weight-semi-bold);
+  color: #f8f4f4;
 }
 
 .text-heading-2 {
   font-size: var(--g-font-size-base);
   font-weight: var(--g-font-weight-semi-bold);
+  color: #f8f4f4;
 }
 
 .container {
@@ -173,7 +173,7 @@ a {
 }
 
 .card {
-  background: var(--g-color-black);
+  background: rgba(140, 138, 139, 0.20);
   border-radius: var(--g-border-radius-large);
   box-shadow: var(--g-box-shadow);
   color: var(--g-color-white);
@@ -189,13 +189,16 @@ a {
 }
 
 .footer {
-  padding-bottom: var(--g-spacing-x-large);
-  padding-top: var(--g-spacing-x-large);
-}
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:auto; 
+  }
 
 .footer-tagline {
   margin-bottom: var(--g-font-size-x-small);
   margin-top: var(--g-font-size-x-small);
+  color: #f8f4f4;
 }
 
 .start-hero {
