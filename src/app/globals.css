@@ -131,6 +131,9 @@ a.text-subtle:hover{
 .sign-in-btn {
   margin-right: var(--g-spacing-small);
 }
+.sign-in-btn:hover{
+  color: #f1f2f4;
+}
 
 .btn {
   border-radius: var(--g-border-radius-small);
