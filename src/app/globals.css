@@ -64,6 +64,10 @@ a {
   font-weight: var(--g-font-weight-base);
 }
 
+a.text-subtle:hover{
+  color: #f1f2f4;
+}
+
 .text-body-1 {
   font-size: var(--g-font-size-2x-large);
   font-weight: var(--g-font-weight-base);
