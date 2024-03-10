@@ -162,6 +162,14 @@ a.text-subtle:hover{
   padding: var(--g-font-size-large) var(--g-font-size-x-large);
 }
 
+.visible {
+  display: block; /* or any other styling you want for visibility */
+}
+
+.hidden {
+  display: none;
+}
+
 .hero {
   align-items: center;
   display: flex;
