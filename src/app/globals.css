@@ -194,7 +194,7 @@ form.search-input{
 }
 
 .card {
-  background: rgba(140, 138, 139, 0.20);
+  background: rgba(24, 24, 24, 0.6);
   border-radius: var(--g-border-radius-large);
   box-shadow: var(--g-box-shadow);
   color: var(--g-color-white);
