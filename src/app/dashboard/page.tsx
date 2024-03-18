@@ -42,7 +42,7 @@ export default function Dashboard() {
         setCardStartHero('visible')   
       }
 
-        console.log('let me see :', playersSearchResult);
+        // console.log('let me see :', playersSearchResult);
         // console.log('fetch me this data', playerName, playerImage, playerTeam, playerHeight, playerPosition, playerWeight);
       }
 
@@ -76,4 +76,8 @@ export default function Dashboard() {
       </div>
     </div>
   );
+}
+
+export function handleClick(){
+  
 }
